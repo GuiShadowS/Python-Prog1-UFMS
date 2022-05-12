@@ -1,38 +1,5 @@
 # -*- coding: utf-8 -*-
 
-'''
-Com base na tabela a seguir, calcular o valor da conta
-de agua, com base nas informações fornecidas pelo usuário
-
-Tarifa Fixa R$ 15,05
-
-Consumo Residencial Água (R$/m³) Esgoto (R$/m³)
-
-1 a 10 m³           6,08          4,26
-
-11 a 15 m³          7,79          5,45
-
-16 a 20 m³          7,93          5,55
-
-21 a 25 m³          8,75          6,13
-
-26 a 30 m³          10,76         7,53
-
-31 a 50 m³          12,9          9,03
-
-Acima 50 m³         14,21         9,95
-
-Por exemplo, para 18 m³, deve-se calcular o valor total 
-computando o custo por unidade de consumo de cada faixa:
-
-15.05 + (10*6.08 + 5*7.79 + 3*7.93) + (10*4.26 + 5*5.45 + 3*5.55) =
-
-15.05 + 123.54 + 86.50 = 225.09
-
-Após o cálculo do valor total, mostra-se o consumo, 
-a tarifa fixa, o gasto com água, o gasto com esgoto,
-e o valor total a ser pago.
-'''
 # Leia um numero inteiro <= 0
 x = int(input())
 
