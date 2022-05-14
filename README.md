@@ -1,7 +1,7 @@
 # ALGORITMOS E PROGRAMAÇÃO 1
 ## LINGUAGEM: PYTHON
-## FACULDADE DE COMPUTAÇÃO
-## UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL
+## FACOM - FACULDADE DE COMPUTAÇÃO
+## UFMS - UNIVERSIDADE FEDERAL DE MATO GROSSO DO SUL
 - Exercícios de listas, provas e testes usados na disciplina
 - Todos os exercícios com comentários sobre o que se trata e explicação de tudo que acontece no código
 - Alguns códigos poderiam ser resolvidos de maneiras mais simples e objetivas, porém os exercícios são gradativos com base no aprendizado até aquele momento da matéria
