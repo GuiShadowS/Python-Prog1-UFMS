@@ -1,5 +1,32 @@
 # -*- coding: utf-8 -*-
 
+'''
+Esse programa vai receber um valor inteiro que corresponde a quantos metros cubicos de agua uma pessoas gastou e com base na tabela abaixo ele irá decompor o valor e efetuar os calculos
+após o encaixar o valor em uma linha de calculo, ele tambem deve calcular as linhas anteriores até o começo no 1 a 10m3
+
+Por exemplo, para 18 m³, deve-se calcular o valor total computando o custo por unidade de consumo de cada faixa:
+15.05 + (10*6.08 + 5*7.79 + 3*7.93) + (10*4.26 + 5*5.45 + 3*5.55) =
+15.05 + 123.54 + 86.50 = 225.09
+
+Tarifa Fixa R$ 15,05
+
+Consumo Residencial   Água (R$/m³)  Esgoto (R$/m³)
+
+1 a 10 m³             6,08          4,26
+
+11 a 15 m³            7,79          5,45
+
+16 a 20 m³            7,93          5,55
+
+21 a 25 m³            8,75          6,13
+
+26 a 30 m³           10,76          7,53
+
+31 a 50 m³           12,9           9,03
+
+Acima 50 m³          14,21          9,95
+'''
+
 # Leia um numero inteiro <= 0
 x = int(input())
 
@@ -12,8 +39,8 @@ esgoto = 0
 # para a agua e esgoto, usando uma estrutura de if e elif para comparar 
 # o valor recebido e verificar em qual situação ele se encaixa
 if x > 50:
-    agua = ((10 * 6.08) + (5 * 7.79) + (5 * 7.93) + (5 * 8.75) + (5 * 10.76) + (10 * 12.9) + ((x - 50) * 14.21))
-    esgoto = ((10 * 4.26) + (5 * 5.45) + (5 * 5.55) + (5 * 6.13) + (5 * 7.53) + (10 * 9.03) + ((x - 50) * 9.95))
+    agua = ((10 * 6.08) + (5 * 7.79) + (5 * 7.93) + (5 * 8.75) + (5 * 10.76) + (20 * 12.9) + ((x - 50) * 14.21))
+    esgoto = ((10 * 4.26) + (5 * 5.45) + (5 * 5.55) + (5 * 6.13) + (5 * 7.53) + (20 * 9.03) + ((x - 50) * 9.95))
     soma = 15.05 + agua + esgoto
         
 elif x >= 31 and x <= 50:
