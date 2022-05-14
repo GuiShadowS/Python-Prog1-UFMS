@@ -10,3 +10,4 @@
 
 ![grafo_facom](https://user-images.githubusercontent.com/59571917/168417469-4a5f2019-8c28-4afd-aff5-52229793414d.png)
 ![padrao](https://user-images.githubusercontent.com/59571917/168417470-0f63a058-ced5-481f-b37d-2031e148a3b5.png)
+![download (1)](https://user-images.githubusercontent.com/59571917/168418414-13fa2bff-febc-4360-b231-c7784f1def69.jpg)
