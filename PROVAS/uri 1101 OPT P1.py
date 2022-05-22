@@ -3,7 +3,7 @@
 '''
 Esse programa vai receber um intervalo de valores de M e N, se algum dos valores for menor
 ou igual a zero o programa se encerra, caso contrario ele verifica qual é o menor
-valor entre ambos e a partir dali começa a imprimir na tela a sequencia numeroca em ordem
+valor entre ambos e a partir dali começa a imprimir na tela a sequencia numerica em ordem
 crescente do menor valor até o maior valor, considerando ambos e após isso faz o calculo
 de todos os numeros que estão nesse intervalo considerando os dois fornecidos pelo usuário 
 e mostra na tela o resultado
