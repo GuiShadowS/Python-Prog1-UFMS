@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Programa que calcula o índice de massa corporal de uma pessoa
+Função que calcula o índice de massa corporal de uma pessoa
 e mostra em que nível a mesma se encontra!
 '''
 
