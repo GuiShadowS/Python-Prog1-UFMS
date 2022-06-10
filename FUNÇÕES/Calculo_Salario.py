@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
 '''
-Exemplo de função criada para calcular o salario
-de um funcionário levando em consideração as
-horas extras que sejam feitas e o valor da taxa
-ao final imprime na tela o resultado
+Exemplo de função criada para calcular o salario de um funcionário levando em consideração 
+as horas extras que sejam feitas, e o valor da taxa, ao final imprime na tela o resultado
 '''
 
 # Função criada para calcular o salario de um funcionario
